@@ -18,6 +18,7 @@ Satlayer Deposit Contract allows users to deposit wrapped bitcoin assets in exch
 | Delivery Date  | Oct 13, 2025 |
 | :--- | :--- |
 | Audit Methodology          | Manual Review, Static Analysis, Formal Verification  |
+| Author(s)                  | [Vladimir Ryzhak](https://www.ryzhak.com/) |
 | Final Commit               | [1dd233d6dda3991234bc5ed6e0477b22a2570e04](https://github.com/satlayer/deposit-contract-public/tree/1dd233d6dda3991234bc5ed6e0477b22a2570e04) |
 | Formal Verification Report | [ReceiptToken.sol](https://prover.certora.com/output/8691664/2283f9e590ab48aca2f9e14fbe31124e/?anonymousKey=58a5d6e15d8f2c89c188ab8baff453a618d7abea), [SatlayerPool.sol](https://prover.certora.com/output/8691664/c7912732329b4601971ed9b85f37db9f/?anonymousKey=05824e30d8d74d94bd65665d1bcd0723611ac968) |
 | Formal Verification CI Setup | [PR URL](https://github.com/satlayer/deposit-contract-public/pull/1) |
@@ -338,9 +339,9 @@ Remove the [TokenAlreadyConfiguredWithState](https://github.com/satlayer/deposit
 ---
 
 ## Disclaimer
-This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies QuuLab from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
+This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies the author from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
 
-## About QuuLab
-QuuLab is a Web3 security firm specializing in advanced formal verification tools and comprehensive smart contract audits. Using modern formal verification tools, we identify even the most elusive and intricate bugs within smart contracts and mathematically prove their absence. We integrate formal verification into the standard deployment pipelines of the audited protocols. It helps developers of the audited protocols to reduce the number of bugs in already audited pieces of code, thereby reducing costs for future security assessments.
+## About the author
+Prepared by [ryzhak.com](https://www.ryzhak.com/).
 
-Learn more about us at [quulab.com](https://quulab.com).
+Perform a comprehensive smart contract audit using advanced formal verification tools that identify even the most elusive and intricate bugs within smart contracts and mathematically prove the absence of security issues. All formal verification properties will be integrated into your standard deployment CI/CD pipelines, which helps reduce the number of bugs in already audited code, thereby lowering costs for future security assessments.
