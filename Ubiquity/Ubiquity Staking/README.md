@@ -35,6 +35,7 @@ Curve's UUSD/LUSD LP tokens and get UBQ (Ubiquity Governance) tokens as rewards.
 | Delivery Date  | Sep 18, 2025 |
 | :--- | :--- |
 | Audit Methodology          | Manual Review, Static Analysis, Contract Fuzzing, Formal Verification  |
+| Author(s)                  | [Vladimir Ryzhak](https://www.ryzhak.com/) |
 | Initial Commit             | [8fbfbe92b5403be031e6d092fd699b746fa13406](https://github.com/ubiquity/ubiquity-dollar/commit/8fbfbe92b5403be031e6d092fd699b746fa13406) |
 | Final Commit               | [7eb880f4fba21494d313924cfb57f6e8dfbc5078](https://github.com/ubiquity/ubiquity-dollar/commit/7eb880f4fba21494d313924cfb57f6e8dfbc5078) |
 | Formal Verification Report | [Report URL](https://prover.certora.com/output/8691664/7e886e25e4d14f93b2c8c5cf9229f501/?anonymousKey=5f204259dcdcb8c41c9bd9e15afca95d9698641a) |
@@ -1083,9 +1084,9 @@ Refactor the code and don't mint tokens to the treasury if its address is not se
 ---
 
 ## Disclaimer
-This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies QuuLab from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
+This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies the author from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
 
-## About QuuLab
-QuuLab is a Web3 security firm specializing in advanced formal verification tools and comprehensive smart contract audits. Using modern formal verification tools, we identify even the most elusive and intricate bugs within smart contracts and mathematically prove their absence. We integrate formal verification into the standard deployment pipelines of the audited protocols. It helps developers of the audited protocols to reduce the number of bugs in already audited pieces of code, thereby reducing costs for future security assessments.
+## About the author
+Prepared by [ryzhak.com](https://www.ryzhak.com/).
 
-Learn more about us at [quulab.com](https://quulab.com).
+Perform a comprehensive smart contract audit using advanced formal verification tools that identify even the most elusive and intricate bugs within smart contracts and mathematically prove the absence of security issues. All formal verification properties will be integrated into your standard deployment CI/CD pipelines, which helps reduce the number of bugs in already audited code, thereby lowering costs for future security assessments.
