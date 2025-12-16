@@ -18,6 +18,7 @@ Sense Finance Point Tokenization Vault allows users to make deposits, claim `PTo
 | Delivery Date  | Nov 5, 2025 |
 | :--- | :--- |
 | Audit Methodology          | Manual Review, Static Analysis, Formal Verification  |
+| Author(s)                  | [Vladimir Ryzhak](https://www.ryzhak.com/)  |
 | Final Commit               | [2e607155b234dcb69d1fbbe126f930bed779c134](https://github.com/sense-finance/point-tokenization-vault/tree/2e607155b234dcb69d1fbbe126f930bed779c134) |
 | Formal Verification Report | [PToken.sol](https://prover.certora.com/output/8691664/c872f24c50ba450185fb556d0241c10a/?anonymousKey=e30987f3b2fc49454e94ddecdbd4767b214a1de9), [PointTokenVault.sol](https://prover.certora.com/output/8691664/23fd20f6bca64240b4972242bd81a220/?anonymousKey=92cb8631c9cf27eed20196f465705a6fbbc4ff4f)  |
 | Formal Verification CI Setup | [PR URL](https://github.com/sense-finance/point-tokenization-vault/pull/68) |
@@ -533,9 +534,9 @@ Remove the [receive()](https://github.com/sense-finance/point-tokenization-vault
 ---
 
 ## Disclaimer
-This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies QuuLab from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
+This security review should not be interpreted as providing absolute assurance against potential hacks or exploits. Smart contracts represent a novel technological advancement, inherently associated with various known and unknown risks. The protocol for which this report is prepared indemnifies the author from any liability concerning potential misbehavior, bugs, or exploits affecting the audited code throughout the entirety of the project's life cycle. It is also crucial to recognize that any modifications made to the audited code, including remedial measures for the issues outlined in this report, may inadvertently introduce new complications and necessitate further auditing.
 
-## About QuuLab
-QuuLab is a Web3 security firm specializing in advanced formal verification tools and comprehensive smart contract audits. Using modern formal verification tools, we identify even the most elusive and intricate bugs within smart contracts and mathematically prove their absence. We integrate formal verification into the standard deployment pipelines of the audited protocols. It helps developers of the audited protocols to reduce the number of bugs in already audited pieces of code, thereby reducing costs for future security assessments.
+## About the author
+Prepared by [ryzhak.com](https://www.ryzhak.com/).
 
-Learn more about us at [quulab.com](https://quulab.com).
+Perform a comprehensive smart contract audit using advanced formal verification tools that identify even the most elusive and intricate bugs within smart contracts and mathematically prove the absence of security issues. All formal verification properties will be integrated into your standard deployment CI/CD pipelines, which helps reduce the number of bugs in already audited code, thereby lowering costs for future security assessments.
